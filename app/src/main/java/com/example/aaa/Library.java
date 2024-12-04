@@ -84,7 +84,7 @@ public class Library {
     }
 
     public void displayAuthors() {
-        Log.d("Library", "Список уникальных авторов:");
+        Log.d("Library", "Список уникальных авторов:"); //ddd
         for (Author author : authors) {
             Log.d("Library", author.toString());
         }
